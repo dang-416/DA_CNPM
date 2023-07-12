@@ -7,7 +7,7 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import TextField from "@mui/material/TextField";
 import { makeStyles } from "@mui/styles";
-import { createTheme } from "@mui/system";
+import { createTheme } from "@mui/material/styles";
 import Radio from "@mui/material/Radio";
 import RadioGroup from "@mui/material/RadioGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
@@ -16,9 +16,6 @@ import FormControl from "@mui/material/FormControl";
 import { useState, useContext } from "react";
 import Paypal from "./Paypal";
 import { useUserInfo } from "../../assets/firebase-data/getUserAPI";
-import Loading from "../Loading";
-import { set } from "../../redux/product-modal/productModalSlice";
-import { VpnLock } from "@mui/icons-material";
 import CartContext from "../../stores/CartContext";
 import { toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css'
@@ -30,7 +27,7 @@ const steps = [
   "Phương thức thanh toán"
 ];
 
-const theme = createTheme(); 
+const theme = createTheme();
 const UseStyles = makeStyles({
   root: {
     "& .MuiFormControl-root": {
@@ -258,4 +255,4 @@ export default function CardPay() {
     </Box>
   );
     
-};
+}

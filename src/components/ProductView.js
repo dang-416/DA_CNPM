@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react'
+import { useState, useEffect, useContext } from 'react';
 import PropTypes from 'prop-types'
 import CartContext from '../stores/CartContext'
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
@@ -11,12 +11,12 @@ import LoadingButton from '@mui/lab/LoadingButton';
 import { remove } from '../redux/product-modal/productModalSlice'
 
 import numberWithCommas from '../utils/numberWithCommas'
-import { Navigate, useNavigate } from 'react-router';
+import { useNavigate } from 'react-router';
 import Stack from "@mui/material/Stack";
 import AddBoxIcon from "@mui/icons-material/AddBox";
 import IndeterminateCheckBoxIcon from "@mui/icons-material/IndeterminateCheckBox";
 import StarRateIcon from '@mui/icons-material/StarRate';
-import { updateDoc,doc } from '@firebase/firestore';
+import { updateDoc,doc } from 'firebase/firestore';
 import ProductData from '../assets/firebase-data/products';
 import { db } from '../firebase';
 const ProductView = props => {

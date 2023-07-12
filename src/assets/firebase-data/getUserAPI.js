@@ -1,8 +1,8 @@
-import { onSnapshot } from '@firebase/firestore';
+import { onSnapshot } from 'firebase/firestore';
 import React from 'react';
 import { useContext, useState, useEffect } from 'react';
 import { useUserContext } from '../../stores/AppState';
-import {orderBy, query, collection, addDoc, getDocs, updateDoc, doc, deleteDoc } from '@firebase/firestore';
+import {orderBy, query, collection, addDoc, getDocs, updateDoc, doc, deleteDoc } from 'firebase/firestore';
 import { db } from '../../firebase';
 import CartContext from '../../stores/CartContext';
 import Loading from '../../components/Loading';

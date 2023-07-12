@@ -1,4 +1,4 @@
-import React, { useCallback, useState, useEffect, useRef, useContext } from 'react'
+import { useCallback, useState, useEffect, useRef, useContext } from 'react';
 
 import Helmet from '../components/Helmet'
 import CheckBox from '../components/CheckBox'
@@ -11,7 +11,6 @@ import InfinityList from '../components/InfinityList'
 import  { FilterState } from '../stores/AppState'
 import DoubleSlider from '../components/DoubleSlider'
 import Box from '@mui/material/Box';
-import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';

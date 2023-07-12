@@ -1,4 +1,4 @@
-import React, { useEffect, useContext } from 'react'
+import { useContext } from 'react';
 
 import { Link } from 'react-router-dom'
 
@@ -12,8 +12,6 @@ import ProductCard from '../components/ProductCard'
 import policy from '../assets/fake-data/policy'
 import ProductData from '../assets/firebase-data/products'
 import { HeroSliderDataProvider } from '../assets/firebase-data/hero-slider'
-
-import banner from '../assets/images/banner.png'
 
 const Home = () => {
     const ProductDataCtx = useContext(ProductData);

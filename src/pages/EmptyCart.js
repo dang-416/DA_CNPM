@@ -1,5 +1,3 @@
-import { ClassNames } from '@emotion/react'
-import React from 'react'
 import logo from '../assets/images/emptycart.jpg'
 import classes from './EmptyCart.module.css'
 import { Button } from '@mui/material'

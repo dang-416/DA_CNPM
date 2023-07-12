@@ -6,11 +6,10 @@ import {
     signOut,
     sendPasswordResetEmail,
 } from "firebase/auth";
-import { doc, setDoc } from "firebase/firestore";
+import { doc, setDoc, onSnapshot} from "firebase/firestore";
 import { db, auth } from "../firebase";
 import Loading from "../components/Loading";
 import { useNavigate } from "react-router";
-import { onSnapshot } from "@firebase/firestore";
 
 const UserContext = createContext({});
 
