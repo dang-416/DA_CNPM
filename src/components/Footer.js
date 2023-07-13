@@ -9,38 +9,38 @@ import logo from "../assets/images/BKBOOK1.png";
 const footerAboutLinks = [
     {
         display: "Giới thiệu",
-        path: "/about"
+        path: "#"
     },
     {
         display: "Liên hệ",
-        path: "/about"
+        path: "#"
     },
     {
         display: "Tuyển dụng",
-        path: "/about"
+        path: "#"
     },
     {
         display: "Tin tức",
-        path: "/about"
+        path: "#"
     },
     {
         display: "Hệ thống cửa hàng",
-        path: "/about"
+        path: "#"
     }
 ]
 
 const footerCustomerLinks = [
     {
         display: "Chính sách đổi trả",
-        path: "/about"
+        path: "#"
     },
     {
         display: "Chính sách bảo hành",
-        path: "/about"
+        path: "#"
     },
     {
         display: "Chính sách hoàn tiền",
-        path: "/about"
+        path: "#"
     }
 ]
 const Footer = () => {

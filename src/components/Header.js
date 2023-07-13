@@ -18,10 +18,10 @@ const mainNav = [
     //     display: "Phụ kiện",
     //     path: "/accessories"
     // },
-    {
-        display: "Liên hệ",
-        path: "/contact",
-    },
+    // {
+    //     display: "Liên hệ",
+    //     path: "/contact",
+    // },
 ];
 
 const Header = () => {
